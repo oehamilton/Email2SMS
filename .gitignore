@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+#Lambda Layer
+#  Lambda layers are used to share code across multiple AWS Lambda functions.
+Lambda/*
+
 # Distribution / packaging
 .Python
 build/
