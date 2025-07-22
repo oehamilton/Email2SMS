@@ -36,7 +36,7 @@ logger.handlers = [handler]
 def send_sms(from_number, to_number, message):
     url = "https://sms.api.sinch.com/xms/v1/d55362c23fe94a76a79a4409e249c85a/batches"
     headers = {
-        "Authorization": "Bearer 6081f3c378b745e69b507e4c1eabdc4d",
+        "Authorization": "Bearer 6081f3c3xxxxxb507e4c1eabdc4d",
         "Content-Type": "application/json"
     }
 
@@ -184,9 +184,9 @@ def parse_ses_event(event):
         logger.debug("Starting Parse Script")
         # Define email-to-phone number mappings
         email_to_phone = {
-            "oehamilton": "19402063925",
-            "a.castillo": "16822068114",
-            "kevin.buckley.texas": "18175839985"
+            "oehxxxn": "1xxxxxx",
+            "a.caxxxlo": "1xxxxxx",
+            "kexxn.buxxxley.txxas": "1xxxxx"
             # Add more mappings here as needed, e.g.,
             # "another.user": "12345678901",
         }
@@ -251,7 +251,7 @@ def parse_ses_event(event):
 
 def lambda_handler(event, context):
     from_number= '12085797066' 
-    to_number = '19402063925'
+    to_number = '194xxxx925'
     from_addr = 'none'
     logger.info("START of Lambda CODE")
 
